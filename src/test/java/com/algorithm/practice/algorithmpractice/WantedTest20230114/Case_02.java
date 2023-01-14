@@ -83,7 +83,7 @@ class Case_02 {
 //	직사각형 격자로 보이지만 실제로는 한 바퀴를 돌아 이동할 수 있는 도넛 모양이기 때문에, 빈 영역의 개수는 두 개이다.
 
 	@Test
-	void contextLoads() {
+	void contextLoads() { // test
 		Scanner sc = new Scanner(System.in);
 //		int a, b;
 //		a = sc.nextInt();

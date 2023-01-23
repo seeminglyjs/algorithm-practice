@@ -3,8 +3,6 @@ package com.algorithm.practice.algorithmpractice.WantedTest20230114;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 @SpringBootTest
@@ -82,10 +80,10 @@ class Case_02 {
 //			2
 //	직사각형 격자로 보이지만 실제로는 한 바퀴를 돌아 이동할 수 있는 도넛 모양이기 때문에, 빈 영역의 개수는 두 개이다.
 
-	@Test
-	void contextLoads() { // test
-		Scanner sc = new Scanner(System.in);
-//		int a, b;
+    @Test
+    void contextLoads() { // test
+        Scanner sc = new Scanner(System.in);
+		int a, b;
 //		a = sc.nextInt();
 //		b = sc.nextInt();
 //		int [][] arr = new int [a][b];
@@ -97,63 +95,61 @@ class Case_02 {
 //			}
 //		}
 
-		a = 5;
-		b = 6;
-		int [][] arr = new int [a][b];
-		arr[0][0] = 1;
-		arr[0][1] = 1;
-		arr[0][2] = 1;
-		arr[0][3] = 1;
-		arr[0][4] = 1;
-		arr[0][5] = 1;
+        a = 5;
+        b = 6;
+        int[][] arr = new int[a][b];
+        arr[0][0] = 1;
+        arr[0][1] = 1;
+        arr[0][2] = 1;
+        arr[0][3] = 1;
+        arr[0][4] = 1;
+        arr[0][5] = 1;
 
-		arr[1][0] = 1;
-		arr[1][1] = 0;
-		arr[1][2] = 0;
-		arr[1][3] = 0;
-		arr[1][4] = 1;
-		arr[1][5] = 1;
+        arr[1][0] = 1;
+        arr[1][1] = 0;
+        arr[1][2] = 0;
+        arr[1][3] = 0;
+        arr[1][4] = 1;
+        arr[1][5] = 1;
 
-		arr[2][0] = 1;
-		arr[2][1] = 1;
-		arr[2][2] = 1;
-		arr[2][3] = 1;
-		arr[2][4] = 0;
-		arr[2][5] = 0;
+        arr[2][0] = 1;
+        arr[2][1] = 1;
+        arr[2][2] = 1;
+        arr[2][3] = 1;
+        arr[2][4] = 0;
+        arr[2][5] = 0;
 
-		arr[3][0] = 1;
-		arr[3][1] = 1;
-		arr[3][2] = 1;
-		arr[3][3] = 1;
-		arr[3][4] = 0;
-		arr[3][5] = 0;
+        arr[3][0] = 1;
+        arr[3][1] = 1;
+        arr[3][2] = 1;
+        arr[3][3] = 1;
+        arr[3][4] = 0;
+        arr[3][5] = 0;
 
-		arr[4][0] = 1;
-		arr[4][1] = 1;
-		arr[4][2] = 1;
-		arr[4][3] = 1;
-		arr[4][4] = 1;
-		arr[4][5] = 1;
+        arr[4][0] = 1;
+        arr[4][1] = 1;
+        arr[4][2] = 1;
+        arr[4][3] = 1;
+        arr[4][4] = 1;
+        arr[4][5] = 1;
 
-		int count = 0;
-		for(int i = a; i < a; i++){
-			if(arr[i][0] == 0 && (!visted[i][0])){
-				visted[i][0] = true;
-				count++;
-				int currentIndex = i;
-				if(currentIndex == a - 1){
-					if(arr[currentIndex][b-1]  == 0 && (!visted[i][0])){
-						for(int j = b-1; j >= 0; j--){
-//							if(arr[currentIndex])
-						}
-					}
-				}
+
+        for (int i = row; i < row; i++) {
+			if(!visted[i][0]){
+				checkfirstRow(arr, i);
 			}
+        }
+    }
 
+    public static void checkfirstRow(int[][] arr, int rowi) {
+		count++;
+		visted[rowi][0] = true;
+		if(arr[rowi][col-1] == 0 && !visted[rowi][col-1]){//현재 행의 반대편이랑 연결되어 있을 경우
+			visted[rowi][col-1] = true;
 		}
+    }
 
-	}
-
-	static int a, b;
-	boolean [][] visted = new boolean[a][b];
+    static int count = 0;
+    static int row, col;
+    static boolean[][] visted = new boolean[row][col];
 }

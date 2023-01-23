@@ -35,11 +35,63 @@ public class Case_02 { // [2개 이하로 다른 비트]
 
     @Test
     public void test1() {
-        long[] number = {2, 7};
-        long[] result = solution(number);
+        long[] number = {2,7};
+        long[] result = solution2(number);
         for(int i = 0 ; i < result.length; i++){
-            System.out.println(result);
+            System.out.println(result[i]);
         }
+    }
+
+        public long[] solution2(long[] numbers){
+            long[] answer = new long[numbers.length];
+            int index = 0;
+            for (int i = 0; i < numbers.length; i++) {
+                long number = numbers[i];
+                String bit1 = Long.toBinaryString(number);
+                if(number % 2 == 0){//짝수일 경우
+                    bit1 = bit1.substring(0, bit1.length() - 1);
+                    bit1 += "1";
+                    System.out.println("짝-> " + bit1);
+                    answer[index] = Long.parseLong(bit1,2);
+                    index++;
+                }else{
+                    System.out.println("홀1-> " + bit1);
+                    int lastZero = bit1.lastIndexOf('0');
+                    if(lastZero == -1){
+                        bit1 = "10" + bit1.substring(1);
+                    } else if (lastZero == bit1.length() -1 ) {
+                        bit1 = bit1.substring(0,bit1.length() -1 ) + "1";
+                    } else {
+                        String nmg = "0" + bit1.substring(lastZero+1);
+                        bit1 = bit1.substring(0, lastZero - 1);
+                        bit1 += "1" + nmg;
+                    }
+                    answer[index] = Long.parseLong(bit1,2);
+                    index++;
+                }
+            }
+            return  answer;
+        }
+
+    public long[] solution3(long[] numbers){
+        long[] answer = new long[numbers.length];
+        for(int i = 0; i < numbers.length; i++){
+            if(numbers[i] % 2 ==0)
+                answer[i] = numbers[i]+1;
+            else{
+                String bit =Long.toBinaryString(numbers[i]);
+                int lastZero = bit.lastIndexOf("0");
+                if( lastZero != -1){
+                    bit = bit.substring(0, lastZero) + "10" + bit.substring(lastZero+2, bit.length());
+                    answer[i] = Long.parseLong(bit,2);
+                }else{
+                    bit = "10" + bit.substring(1,bit.length());
+                    answer[i] = Long.parseLong(bit,2);
+                }
+            }
+
+        }
+        return answer;
     }
 
     public long[] solution(long[] numbers) {
@@ -69,7 +121,7 @@ public class Case_02 { // [2개 이하로 다른 비트]
                     if (count <= 2) {//다비교했는데 2개 이하로 같으면
                         answer[index] = number2;
                         index++;
-                        break loop;
+                        break;
                     }
                 } else if (bit1.length() + 2 < bit2.length()) {//비교 보다 2이산 큰경우 비교 불필요
                     number2++;
@@ -80,8 +132,8 @@ public class Case_02 { // [2개 이하로 다른 비트]
                         subZero +="0";
                     }
                     subZero += bit1;
-                    int k1 = subZero.length() - 1;
-                    for (int k2 = bit2.length() - 1; k2 > -1; k2--) {
+                    int k1 = 0;
+                    for (int k2 = 0 ; k2 < bit2.length(); k2++) {
 //                        System.out.println("k2 -> " + k2 + " / k1 -> " + k1);
                         if (subZero.charAt(k1) != bit2.charAt(k2)) {//비트가 다를경우
 //                            System.out.println(subZero.charAt(k1) + " / " + bit2.charAt(k2));
@@ -91,12 +143,12 @@ public class Case_02 { // [2개 이하로 다른 비트]
                             number2++;
                             break;
                         }
-                        k1--;
+                        k1++;
                     }
                     if (count <= 2) {//다비교했는데 2개 이하로 같으면
                         answer[index] = number2;
                         index++;
-                        break loop;
+                        break;
                     }
                 }
             }

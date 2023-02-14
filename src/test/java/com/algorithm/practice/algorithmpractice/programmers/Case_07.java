@@ -38,8 +38,8 @@ public class Case_07 {// 가장 큰 수 Arrays.sort / compareTo 사용
         }
 
         //내림차순 정렬
-        Arrays.sort(str, new Comparator<String>() {
-            @Override
+                    Arrays.sort(str, new Comparator<String>() {
+                @Override
             public int compare(String a, String b) {
                 return (b+a).compareTo(a+b);
                 //오름차순 정렬 (o1+o2).compareTo(o1+o2);

@@ -13,7 +13,12 @@
 10. Case_10.java 가장 가까운 같은 글자 HashMap
 11. Case_11.java 과일 장수 오름차순 정렬
 12. Case_12.java 푸드 파이트 대회 StringBuilder reverse
+13. Case_13.java 옹알이 (2) Set 사용 및 선형탐색
 ---
+### test > CodeWars
+1. Case_01_7kyu.java  String ends with?
+2. Case_02_6kyu.java  Multiplication table
+3. Case_03_6kyu.java  Mexican Wave
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

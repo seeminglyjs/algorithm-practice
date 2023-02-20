@@ -19,6 +19,9 @@
 1. Case_01_7kyu.java  String ends with?
 2. Case_02_6kyu.java  Multiplication table
 3. Case_03_6kyu.java  Mexican Wave
+4. Case_04_7kyu.java  //Binary Addition
+5. Case_05_7kyu.java  //Exes and Ohs
+6. Case_06_6kyu.java  ///Persistent Bugger.
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

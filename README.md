@@ -25,6 +25,8 @@
 7. Case_07_6kyu.java  ///Character with longest consecutive repetition
 8. Case_08_7kyu.java  ///Roman Numerals Encoder.
 9. Case_09_6kyu.java  //Multiples of 3 or 5
+10. Case_10_5kyu.java  //Product of consecutive Fib numbers [피보나치 수열]
+11. Case_11_5kyu.java  //Scramblies [map 중복 객체 제거 ]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

@@ -27,6 +27,8 @@
 9. Case_09_6kyu.java  //Multiples of 3 or 5
 10. Case_10_5kyu.java  //Product of consecutive Fib numbers [피보나치 수열]
 11. Case_11_5kyu.java  //Scramblies [map 중복 객체 제거 ]
+12. Case_12_6kyu.java  //Consecutive strings [연속된 문자열 합중 가장긴거 찾기 ]
+13. Case_13_6kyu.java  //CamelCase Method [공백제거 후 앞글자만 대문자치환 ]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

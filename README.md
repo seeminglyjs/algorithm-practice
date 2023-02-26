@@ -32,6 +32,7 @@
 14. Case_14_5kyu.java  //Number of trailing zeros of N! [5의 제곱의 나눔만큼 0의 갯수를 더해중 / 재귀함수를 사용 ]
 15. Case_15_5kyu.java  //Maximum subarray sum [재귀함수(timeout) / DP 사용]
 16. Case_16_5kyu.java  //What's a Perfect Power anyway? [Math.pow / Math.sqrt 제곱근 빨리구하기]
+17. Case_17_5kyu.java  //Is my friend cheating? [S(n)[1부터의 n까지의합] = n * (n + 1) / 2]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

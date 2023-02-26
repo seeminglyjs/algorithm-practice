@@ -30,6 +30,8 @@
 12. Case_12_6kyu.java  //Consecutive strings [연속된 문자열 합중 가장긴거 찾기 ]
 13. Case_13_6kyu.java  //CamelCase Method [공백제거 후 앞글자만 대문자치환 ]
 14. Case_14_5kyu.java  //Number of trailing zeros of N! [5의 제곱의 나눔만큼 0의 갯수를 더해중 / 재귀함수를 사용 ]
+15. Case_15_5kyu.java  //Maximum subarray sum [재귀함수(timeout) / DP 사용]
+16. Case_16_5kyu.java  //What's a Perfect Power anyway? [Math.pow / Math.sqrt 제곱근 빨리구하기]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

@@ -33,6 +33,8 @@
 15. Case_15_5kyu.java  //Maximum subarray sum [재귀함수(timeout) / DP 사용]
 16. Case_16_5kyu.java  //What's a Perfect Power anyway? [Math.pow / Math.sqrt 제곱근 빨리구하기]
 17. Case_17_5kyu.java  //Is my friend cheating? [S(n)[1부터의 n까지의합] = n * (n + 1) / 2]
+18. Case_18_4kyu.java  //Snail Sort [array 위치 순차 제거]
+19. Case_19_5kyu.java  //PigLatin [정규식]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

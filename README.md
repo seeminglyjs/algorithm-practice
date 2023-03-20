@@ -14,6 +14,7 @@
 11. Case_11.java 과일 장수 오름차순 정렬
 12. Case_12.java 푸드 파이트 대회 StringBuilder reverse
 13. Case_13.java 옹알이 (2) Set 사용 및 선형탐색
+14. Case_14.java 덧칠하기
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?
@@ -35,6 +36,8 @@
 17. Case_17_5kyu.java  //Is my friend cheating? [S(n)[1부터의 n까지의합] = n * (n + 1) / 2]
 18. Case_18_4kyu.java  //Snail Sort [array 위치 순차 제거]
 19. Case_19_5kyu.java  //PigLatin [정규식]
+20. Case_20_6kyu.java  //Stop gninnipS My sdroW! [StringBuilder 사용]
+21. Case_21_5kyu.java  //Best travel [재귀함수]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

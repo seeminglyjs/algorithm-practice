@@ -15,6 +15,8 @@
 12. Case_12.java 푸드 파이트 대회 StringBuilder reverse
 13. Case_13.java 옹알이 (2) Set 사용 및 선형탐색
 14. Case_14.java 덧칠하기
+15. Case_15.java 혼자서 하는 틱택토
+16. Case_16.java 미로 탈출
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

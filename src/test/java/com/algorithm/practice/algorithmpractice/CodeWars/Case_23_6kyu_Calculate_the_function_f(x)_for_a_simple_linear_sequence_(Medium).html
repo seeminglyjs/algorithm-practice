@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="myFunction()">
+<h1>Calculate the function f(x) for a simple linear sequence (Medium)</h1>
+
+</body>
+<script>
+
+    function myFunction() {
+        // 최초 실행할 코드 작성
+        console.log('페이지가 로드되었습니다.');
+        console.log(getFunction([1, 4, 7, 10, 13])(20))
+    }
+
+    function getFunction(sequence) {
+        const [first, second] = sequence;
+
+        if (sequence.every((num, index) => num === first + index * (second - first))) {
+            return x => first + (second - first) * x;
+        } else {
+            return 'Non-linear sequence';
+        }
+    }
+
+    function getFunction2(arr) {
+        let val = arr[1] - arr[0];
+        let lastValue = arr[arr.length - 1]
+        return function (value) {
+            return lastValue + (val * (value - (arr.length - 1)))
+        }
+    }
+</script>
+</html>

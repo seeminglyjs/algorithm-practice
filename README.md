@@ -40,6 +40,8 @@
 19. Case_19_5kyu.java  //PigLatin [정규식]
 20. Case_20_6kyu.java  //Stop gninnipS My sdroW! [StringBuilder 사용]
 21. Case_21_5kyu.java  //Best travel [재귀함수]
+22. Case_22_5kyu_Calculating_with_Functions.html [함수의 변수화]
+23. Case_23_6kyu_Calculate_the_function_f(x)_for_a_simple_linear_sequence_(Medium) [화살표 / 커링]
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

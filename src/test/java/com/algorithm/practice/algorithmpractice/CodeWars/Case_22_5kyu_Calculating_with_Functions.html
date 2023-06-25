@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body onload="myFunction()">
+<h1>Calculating with Functions</h1>
+
+</body>
+    <script>
+
+        function myFunction() {
+            // 최초 실행할 코드 작성
+            console.log('페이지가 로드되었습니다.');
+            console.log(zero(minus(two())))
+        }
+
+        function zero(fnc) {
+            let value = 0
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function one(fnc) {
+            let value = 1
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function two(fnc) {
+            let value = 2
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function three(fnc) {
+            let value = 3
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function four(fnc) {
+            let value = 4
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function five(fnc) {
+            let value = 5
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function six(fnc) {
+            let value = 6
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function seven(fnc) {
+            let value = 7
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function eight(fnc) {
+            let value = 8
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+        function nine(fnc) {
+            let value = 9
+            if(fnc) return typeCheck(value, fnc)
+            else return value
+        }
+
+        function plus(value) {
+            return {"plus" : value}
+        }
+        function minus(value) {
+            return {"minus" : value}
+        }
+        function times(value) {
+            return {"times" : value}
+        }
+        function dividedBy(value) {
+            return {"dividedBy" : value}
+        }
+
+        function typeCheck(value, obj){
+            if(obj.hasOwnProperty("plus")){
+                return value + obj.plus
+            }else if(obj.hasOwnProperty("minus")){
+                return value - obj.minus
+            }else if(obj.hasOwnProperty("times")){
+                return value * obj.times
+            }else if(obj.hasOwnProperty("dividedBy")){
+                return parseInt(value / obj.dividedBy)
+            }
+        }
+
+    </script>
+</html>

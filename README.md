@@ -43,6 +43,8 @@
 22. Case_22_5kyu_Calculating_with_Functions.html [함수의 변수화]
 23. Case_23_6kyu_Calculate_the_function_f(x)_for_a_simple_linear_sequence_(Medium) [화살표 / 커링]
 24. Case_24_6kyu_ IP_Validation
+25. Case_25_6kyu_ Break_camelCase
+26. Case_26_6kyu_ Create_Phone_Number
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

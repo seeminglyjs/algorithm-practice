@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])">
+
+</body>
+<script>
+    function createPhoneNumber(numbers) {
+        let start = "("+numbers[0]+numbers[1]+numbers[2] +")"
+        let middle = " "+numbers[3]+numbers[4]+numbers[5] +"-"
+        let end = ""+numbers[6]+numbers[7]+numbers[8]+numbers[9]
+        return start+middle+end
+    }
+
+
+    function bestCreatePhoneNumber(numbers){
+        let format = "(xxx) xxx-xxxx";
+
+        for(let i = 0; i < numbers.length; i++)
+        {
+            format = format.replace('x', numbers[i]);
+        }
+
+        return format;
+    }
+
+    function bestCreatePhoneNumber2(numbers){
+        numbers = numbers.join('');
+        return '(' + numbers.substring(0, 3) + ') '
+            + numbers.substring(3, 6)
+            + '-'
+            + numbers.substring(6);
+    }
+
+</script>
+</html>

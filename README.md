@@ -45,6 +45,8 @@
 24. Case_24_6kyu_ IP_Validation
 25. Case_25_6kyu_ Break_camelCase
 26. Case_26_6kyu_ Create_Phone_Number
+27. Case_27_6kyu_ Does_my_number_look_big_in_this [reduce / foreach]
+28. Case_28_6kyu_ Find_The_Parity_Outlier
 ### 블로그 관련
 1. Test_01 자바 숫자 문자열 배열 앞글자 기준으로 정렬하는 방법 정리
 

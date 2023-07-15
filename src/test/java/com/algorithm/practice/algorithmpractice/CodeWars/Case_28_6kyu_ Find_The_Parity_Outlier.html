@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="findOutlier([1, 2, 3])">
+
+</body>
+<script>
+    function findOutlier(integers){
+        let odd = 0, even = 0;
+        let oddNum = -1;
+        let evenNum = -1;
+
+        for(let i = 0; i < integers.length; i++){
+            if(integers[i]%2 === 0 || integers[i] === 0){even += 1; evenNum = integers[i];}
+            else {odd += 1;  oddNum = integers[i]}
+            if((even >= 2 || odd >= 2)){
+                if(odd === 1) return oddNum
+                else if(even === 1) return evenNum
+            }
+        }
+    }
+
+
+
+</script>
+</html>

@@ -17,6 +17,8 @@
 14. Case_14.java 덧칠하기
 15. Case_15.java 혼자서 하는 틱택토
 16. Case_16.java 미로 탈출
+17. 20230811 lev1 달리기 경주 
+18. 20230811 lev1 추억 점수 
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

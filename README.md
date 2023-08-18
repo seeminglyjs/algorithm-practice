@@ -27,6 +27,7 @@
 24. 20230818 lev1 콜라문제
 25. 20230818 lev1 삼총사
 26. 20230818 lev1 숫자짝궁
+27. 20230819 lev1 신고결과받기(kakao)
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

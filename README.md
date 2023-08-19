@@ -28,6 +28,8 @@
 25. 20230818 lev1 삼총사
 26. 20230818 lev1 숫자짝궁
 27. 20230819 lev1 신고결과받기(kakao)
+28. 20230819 lev1 부족한금액계산하기
+29. 20230819 lev1 숫자문자열과영단어(kakao)
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

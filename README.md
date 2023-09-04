@@ -31,6 +31,7 @@
 28. 20230819 lev1 부족한금액계산하기
 29. 20230819 lev1 숫자문자열과영단어(kakao)
 30. 20230819 lev1 개인정보_수집_유효기간 (kakao)
+31. 20230904 lev1 로또의최고순위와최저순위
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

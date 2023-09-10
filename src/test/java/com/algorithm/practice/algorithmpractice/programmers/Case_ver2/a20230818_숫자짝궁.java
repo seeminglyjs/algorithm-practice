@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 @SpringBootTest
-public class a29230818_숫자짝궁 {
+public class a20230818_숫자짝궁 {
     //https://school.programmers.co.kr/learn/courses/30/lessons/131128
 
     @Test

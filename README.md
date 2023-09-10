@@ -32,6 +32,8 @@
 29. 20230819 lev1 숫자문자열과영단어(kakao)
 30. 20230819 lev1 개인정보_수집_유효기간 (kakao)
 31. 20230904 lev1 로또의최고순위와최저순위
+32. 20230909 lev2 삼각달팽이
+33. 20230909 lev2 거리두기 확인하기 (bfs, dfs)
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

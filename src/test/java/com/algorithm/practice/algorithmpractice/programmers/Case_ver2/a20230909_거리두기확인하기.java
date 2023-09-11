@@ -8,7 +8,7 @@ import java.util.Queue;
 
 @SpringBootTest
 public class a20230909_거리두기확인하기 {
-//https://school.programmers.co.kr/learn/courses/30/lessons/81302/solution_groups?language=java
+//https://school.programmers.co.kr/learn/courses/30/lessons/81302/solution_groups?language=java1
     @Test
     public void test() {
         String[][] places = {

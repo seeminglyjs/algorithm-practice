@@ -34,6 +34,7 @@
 31. 20230904 lev1 로또의최고순위와최저순위
 32. 20230909 lev2 삼각달팽이
 33. 20230909 lev2 거리두기 확인하기 (bfs, dfs)
+34. 20230911 lev1 키패드 누르기 확인하기 (멘하탄거리)
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

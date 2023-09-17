@@ -38,6 +38,7 @@
 35. 20230916 lev1 이상한 문자만들기
 36. 20230916 lev1 시저암호
 37. 20230917 lev2 타겟넘버
+38. 20230917 lev3 네트워크
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

@@ -40,6 +40,7 @@
 37. 20230917 lev2 타겟넘버
 38. 20230917 lev3 네트워크
 39. 20230917 lev2 하노이의탑
+40. 20230917 lev1 신규아이디추천 (kakao)
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

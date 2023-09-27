@@ -42,6 +42,7 @@
 39. 20230917 lev2 하노이의탑
 40. 20230917 lev1 신규아이디추천 (kakao)
 41. 20230923 lev1 체육복
+42. 20230928 lev1 3진법뒤집기
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?

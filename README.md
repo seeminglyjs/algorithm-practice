@@ -45,6 +45,7 @@
 42. 20230928 lev1 3진법뒤집기
 43. 20230928 lev2 2진변환반복하기
 44. 20230928 lev1 문자열 내 p와 y의 개수
+45. 20230928 lev1 문자열다루기기본
 ---
 ### test > CodeWars
 1. Case_01_7kyu.java  //String ends with?
